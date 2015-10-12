@@ -1,0 +1,26 @@
+2015-10-12 1:01:00 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\elbaulmagico\system\library\mail.php on line 164
+2015-10-12 3:01:14 - PHP Notice:  Undefined index: en in C:\wamp\www\elbaulmagico\index.php on line 188
+2015-10-12 3:01:14 - PHP Notice:  Undefined index: en in C:\wamp\www\elbaulmagico\index.php on line 189
+2015-10-12 3:01:14 - PHP Notice:  Undefined index: en in C:\wamp\www\elbaulmagico\index.php on line 192
+2015-10-12 3:01:14 - PHP Notice:  Undefined index: en in C:\wamp\www\elbaulmagico\index.php on line 193
+2015-10-12 3:02:47 - PHP Notice:  Undefined index: en in C:\wamp\www\elbaulmagico\index.php on line 188
+2015-10-12 3:02:47 - PHP Notice:  Undefined index: en in C:\wamp\www\elbaulmagico\index.php on line 189
+2015-10-12 3:02:47 - PHP Notice:  Undefined index: en in C:\wamp\www\elbaulmagico\index.php on line 192
+2015-10-12 3:02:47 - PHP Notice:  Undefined index: en in C:\wamp\www\elbaulmagico\index.php on line 193
+2015-10-12 3:21:11 - PHP Notice:  Undefined index: en in C:\wamp\www\elbaulmagico\index.php on line 188
+2015-10-12 3:21:11 - PHP Notice:  Undefined index: en in C:\wamp\www\elbaulmagico\index.php on line 189
+2015-10-12 3:21:11 - PHP Notice:  Undefined index: en in C:\wamp\www\elbaulmagico\index.php on line 192
+2015-10-12 3:21:11 - PHP Notice:  Undefined index: en in C:\wamp\www\elbaulmagico\index.php on line 193
+2015-10-12 3:21:41 - PHP Notice:  Undefined index: en in C:\wamp\www\elbaulmagico\index.php on line 188
+2015-10-12 3:21:41 - PHP Notice:  Undefined index: en in C:\wamp\www\elbaulmagico\index.php on line 189
+2015-10-12 3:21:41 - PHP Notice:  Undefined index: en in C:\wamp\www\elbaulmagico\index.php on line 192
+2015-10-12 3:21:41 - PHP Notice:  Undefined index: en in C:\wamp\www\elbaulmagico\index.php on line 193
+2015-10-12 3:29:27 - PHP Notice:  Undefined index: en in C:\wamp\www\elbaulmagico\index.php on line 188
+2015-10-12 3:29:27 - PHP Notice:  Undefined index: en in C:\wamp\www\elbaulmagico\index.php on line 189
+2015-10-12 3:29:27 - PHP Notice:  Undefined index: en in C:\wamp\www\elbaulmagico\index.php on line 192
+2015-10-12 3:29:27 - PHP Notice:  Undefined index: en in C:\wamp\www\elbaulmagico\index.php on line 193
+2015-10-12 3:29:45 - PHP Notice:  Undefined index: en in C:\wamp\www\elbaulmagico\index.php on line 188
+2015-10-12 3:29:45 - PHP Notice:  Undefined index: en in C:\wamp\www\elbaulmagico\index.php on line 189
+2015-10-12 3:29:45 - PHP Notice:  Undefined index: en in C:\wamp\www\elbaulmagico\index.php on line 192
+2015-10-12 3:29:45 - PHP Notice:  Undefined index: en in C:\wamp\www\elbaulmagico\index.php on line 193
+2015-10-12 4:52:03 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\elbaulmagico\system\library\mail.php on line 164
