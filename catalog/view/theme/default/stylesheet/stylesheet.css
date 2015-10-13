@@ -1,8 +1,14 @@
+/*
+$color-primario: rgb(97, 9, 77);
+$color-secundario: rgb(159, 106, 147);
+$color-terciario: rgb(195, 163, 189);
+$color-cuaternario: rgb(247, 241, 245);
+$color-casinegro: #1e1e1e;*/
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	color: #666;
-	font-size: 12px;
+	font-size: 14px;
 	line-height: 20px;
 	width: 100%;
 }
@@ -77,13 +83,15 @@ div.required .control-label:before {
 	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
 	background-repeat: repeat-x;
 }
-/* top */
+
+/* /////////////////////////////////////////////////
+// TOP, NAV: Menu superior de Mi Cuenta, Lista de deseos...
+///////////////////////////////////////////////////*/
 #top {
-	background-color: #EEEEEE;
-	border-bottom: 1px solid #e2e2e2;
+	background-color: #E2D2DF;
 	padding: 4px 0px 3px 0;
-	margin: 0 0 20px 0;
 	min-height: 40px;
+	font-size: 16px;
 }
 #top .container {
 	padding: 0 20px;
@@ -91,6 +99,7 @@ div.required .control-label:before {
 #top #currency .currency-select {
 	text-align: left;
 }
+
 #top #currency .currency-select:hover {
 	text-shadow: none;
 	color: #ffffff;
@@ -124,7 +133,7 @@ div.required .control-label:before {
 }
 /* logo */
 #logo {
-	margin: 0 0 10px 0;
+	/*margin: 0 0 10px 0;*/
 }
 /* search */
 #search {
@@ -141,9 +150,187 @@ div.required .control-label:before {
 	padding: 10px 35px;
 	text-shadow: 0 1px 0 #FFF;
 }
+@media (max-width: 1200px) {
+	.list-inline li {
+		margin: 0px 10px;
+	}
+	.list-inline i {
+		font-size: 18px;
+	}
+
+}
+/* /////////////////////////////////////////////////
+// HEADER | Logo, Boton Carrito (cart)
+///////////////////////////////////////////////////*/
+header {
+	margin: 0px;
+	background-color: rgb(97, 9, 77);
+}
+#header {
+	margin: 0px;
+	width: 100%;
+	padding: 0px 1%;
+}
+#logo img {
+	width: 500px;
+}
+@media (max-width: 768px) {
+	#logo {
+		text-align: center;
+	}
+}
+@media (max-width: 1024px) {
+	#logo img {
+		width: 450px;
+	}
+}
+@media (max-width: 950px) {
+	#logo img {
+		width: 400px;
+	}
+}
+@media (max-width: 415px) {
+	#logo img {
+		width: 350px;
+	}
+}
+
+/*Botones redes sociales*/
+#botones-social {
+  display: inline-block;
+  margin-top: 20px;
+  text-align: right;
+}
+@media (max-width: 950px) {
+	#botones-social { 
+		margin-top: 10px;
+	}
+}
+@media (max-width: 768px) {
+	#botones-social { 
+		display: block;
+		text-align: center;
+	}
+}
+
+#botones-social small {
+	color: #f7f1f5;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
+}
+@media (max-width: 900px) {
+	#botones-social small {
+		display: block;
+		text-align: center;
+	}
+}
+
+#botones-social .circulo {
+  margin: 0px;
+  padding: 0px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  background-color: none;
+  height: 50px;
+  width: 50px;
+  border: 2px solid #f7f1f5;
+  text-align: center;
+  display: inline-block;
+  margin: 5px;
+}
+@media (max-width: 900px) {
+	#botones-social .circulo { 
+		height: 40px;
+  		width: 40px;
+	}
+	#botones-social small {
+		font-size: 12px;
+	}
+}
+
+#botones-social .circulo a {
+  text-decoration: none;
+  color: #f7f1f5;
+}
+
+#botones-social .circulo a span {
+  font-size: 25px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+}
+@media (max-width: 900px) {
+	#botones-social .circulo a span {
+		font-size: 20px;		
+	}
+}
+
+
+#botones-social .facebook {
+  -webkit-transition: transform 0.5s, background-color 0.5s;
+  -moz-transition: transform 0.5s, background-color 0.5s;
+  -ms-transition: transform 0.5s, background-color 0.5s;
+  transition: transform 0.5s, background-color 0.5s;
+}
+
+#botones-social .facebook:hover {
+  background-color: #3b5998;
+  -webkit-transform: scale(1.3, 1.3) rotate(360deg);
+  -moz-transform: scale(1.3, 1.3) rotate(360deg);
+  -ms-transform: scale(1.3, 1.3) rotate(360deg);
+  transform: scale(1.3, 1.3) rotate(360deg);
+}
+
+#botones-social .twitter {
+  -webkit-transition: transform 0.5s, background-color 0.5s;
+  -moz-transition: transform 0.5s, background-color 0.5s;
+  -ms-transition: transform 0.5s, background-color 0.5s;
+  transition: transform 0.5s, background-color 0.5s;
+}
+
+#botones-social .twitter:hover {
+  background-color: #4099ff;
+  -webkit-transform: scale(1.3, 1.3) rotate(360deg);
+  -moz-transform: scale(1.3, 1.3) rotate(360deg);
+  -ms-transform: scale(1.3, 1.3) rotate(360deg);
+  transform: scale(1.3, 1.3) rotate(360deg);
+}
+
+#botones-social .instagram {
+  -webkit-transition: transform 0.5s, background-color 0.5s;
+  -moz-transition: transform 0.5s, background-color 0.5s;
+  -ms-transition: transform 0.5s, background-color 0.5s;
+  transition: transform 0.5s, background-color 0.5s;
+}
+
+#botones-social .instagram:hover {
+  background-color: #9b6954;
+  -webkit-transform: scale(1.3, 1.3) rotate(360deg);
+  -moz-transform: scale(1.3, 1.3) rotate(360deg);
+  -ms-transform: scale(1.3, 1.3) rotate(360deg);
+  transform: scale(1.3, 1.3) rotate(360deg);
+}
+
+#contenedor-buscar {
+  position: absolute;
+  display: inline-block;
+  right: 1%;
+  top: 45px;
+}
+
+
 /* cart */
 #cart {
-	margin-bottom: 10px;
+	margin-top: 30px;
+}
+@media (max-width: 950px) {
+		#cart {
+		margin-top: 20px;
+	}
 }
 #cart > .btn {
 	font-size: 12px;

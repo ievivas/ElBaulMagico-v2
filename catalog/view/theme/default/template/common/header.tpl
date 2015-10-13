@@ -1,3 +1,8 @@
+<!-- 
+Hecho por Ivan Vivas, usando OpenCart de base.
+Octubre - 2015
+ -->
+
 <!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <!--[if IE 8 ]><html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>" class="ie8"><![endif]-->
@@ -23,6 +28,9 @@
 <link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 <link href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700" rel="stylesheet" type="text/css" />
 <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+<!-- Iconos -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
 <?php foreach ($styles as $style) { ?>
 <link href="<?php echo $style['href']; ?>" type="text/css" rel="<?php echo $style['rel']; ?>" media="<?php echo $style['media']; ?>" />
 <?php } ?>
@@ -40,11 +48,8 @@
 <body class="<?php echo $class; ?>">
 <nav id="top">
   <div class="container">
-    <?php echo $currency; ?>
-    <?php echo $language; ?>
     <div id="top-links" class="nav pull-right">
       <ul class="list-inline">
-        <li><a href="<?php echo $contact; ?>"><i class="fa fa-phone"></i></a> <span class="hidden-xs hidden-sm hidden-md"><?php echo $telephone; ?></span></li>
         <li class="dropdown"><a href="<?php echo $account; ?>" title="<?php echo $text_account; ?>" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_account; ?></span> <span class="caret"></span></a>
           <ul class="dropdown-menu dropdown-menu-right">
             <?php if ($logged) { ?>
@@ -67,19 +72,34 @@
   </div>
 </nav>
 <header>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-4">
+  <div class="container" id="header">
+    <div class="row row-header">
+      <div class="col-sm-5" id="">
         <div id="logo">
-          <?php if ($logo) { ?>
-          <a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
-          <?php } else { ?>
-          <h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
-          <?php } ?>
+          <a href="<?php echo $home; ?>"><img src="image/catalog/logos/logo.svg" alt="El Baul Magico Logo" title="El Baúl Mágico"></a>
         </div>
       </div>
-      <div class="col-sm-5"><?php echo $search; ?>
+      <div class="col-sm-4" id="botones-social">
+          <small>¡Síguenos!</small>
+          <div class="circulo facebook">
+            <a href="https://www.facebook.com/ievivas" target="_blank" title="Facebook">
+              <span class="ion-social-facebook"></span>
+            </a>
+          </div>
+          <div class="circulo twitter">
+            <a href="https://twitter.com/ievivas" target="_blank" title="Twitter">
+              <span class="ion-social-twitter"></span>
+            </a>
+          </div>
+          <div class="circulo instagram">
+            <a href="https://instagram.com/elbaulmagicobisuteria" target="_blank" title="Instagram">
+              <span class="ion-social-instagram"></span>
+            </a>
+          </div>
       </div>
+      <!-- Input Buscar: Descomentar -->
+      <!-- <div class="col-sm-5"><?php echo $search; ?>
+      </div> -->
       <div class="col-sm-3"><?php echo $cart; ?></div>
     </div>
   </div>
